@@ -19,7 +19,7 @@ public class AppTest {
     }
     
     @Test
-    public void testPassed() {
+    public void testPassed() throws Exception {
         Thread.sleep(6000);
         Assert.assertEquals(isPassed,true);
     }
