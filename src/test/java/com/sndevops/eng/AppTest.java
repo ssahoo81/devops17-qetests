@@ -20,9 +20,12 @@ public class AppTest {
     
     @Test
     public void testPassed() {
-        // Add test cases 111
-        // Add few lines
+        Thread.sleep(6000);
         Assert.assertEquals(isPassed,true);
-        Assert.assertEquals(isPassed,true);
+    }
+    
+        @Test
+    public void testFailed() {
+        Assert.assertEquals(isPassed,false);
     }
 }
