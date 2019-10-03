@@ -6,7 +6,7 @@ import org.junit.Test;
 import org.junit.Ignore;
 
 public class AppTest {
-    private String INPUT = "44";
+    private String INPUT = "4";
     private String INPUT1 = "1234567";
     private String INPUT2 = "115";
     private boolean isPassed = true;
