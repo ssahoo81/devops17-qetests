@@ -8,7 +8,7 @@ import org.junit.Ignore;
 public class AppTest {
     private String INPUT = "43";
 
-    @Test
+    //@Test
     // public void testQETest1() throws Exception {
     //     // Test with new Dev build 1
     //     Assert.assertEquals(INPUT,"4");
