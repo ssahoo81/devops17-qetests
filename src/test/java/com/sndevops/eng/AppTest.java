@@ -11,7 +11,7 @@ public class AppTest {
     @Test
      public void testQETest1() throws Exception {
          // Test with new Dev build 1
-         Assert.assertEquals(INPUT,"4");
+         Assert.assertEquals(INPUT,"44");
         Thread.sleep(5000);
      }
     
@@ -19,7 +19,7 @@ public class AppTest {
      public void testQETest2() throws Exception{
          // Test with new Dev build 1
          Thread.sleep(5000);
-         Assert.assertEquals(INPUT,"44");
+         Assert.assertEquals(INPUT,"4");
      }
     
     //     @Test
