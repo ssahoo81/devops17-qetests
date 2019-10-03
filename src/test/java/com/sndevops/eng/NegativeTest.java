@@ -5,7 +5,7 @@ import org.junit.Assert;
 import org.junit.Test;
 import org.junit.Ignore;
 
-public class NegativeTests {
+public class NegativeTest {
     private String INPUT = "43";
 
         // public void testQETest11() throws Exception{
