@@ -3,6 +3,7 @@ package com.sndevops.eng;
 
 import org.junit.Assert;
 import org.junit.Test;
+import org.junit.Ignore;
 
 public class AppTest {
     private String INPUT = "44";
@@ -14,7 +15,7 @@ public class AppTest {
     @Test
     public void testQETest1() throws Exception {
         // Test with new Dev build 1
-        Assert.assertEquals(INPUT,"44");
+        Assert.assertEquals(INPUT,"4");
         Assert.assertEquals(INPUT2,"115");
         Thread.sleep(5000);
     }
@@ -22,61 +23,61 @@ public class AppTest {
         @Test
     public void testQETest2() throws Exception{
         // Test with new Dev build 1
-        Assert.assertEquals(INPUT,"44");
+        Assert.assertEquals(INPUT,"4");
         Assert.assertEquals(INPUT2,"115");
                 Thread.sleep(5000);
     }
         @Test
     public void testQETest3() throws Exception{
         // Test with new Dev build 1
-        Assert.assertEquals(INPUT,"44");
+        Assert.assertEquals(INPUT,"4");
         Assert.assertEquals(INPUT2,"115");
                 Thread.sleep(5000);
     }
         @Test
     public void testQETest4() throws Exception{
         // Test with new Dev build 1
-        Assert.assertEquals(INPUT,"44");
+        Assert.assertEquals(INPUT,"4");
         Assert.assertEquals(INPUT2,"115");
     }
         @Test
     public void testQETest5() throws Exception{
         // Test with new Dev build 1
-        Assert.assertEquals(INPUT,"44");
+        Assert.assertEquals(INPUT,"4");
         Assert.assertEquals(INPUT2,"115");
     }
         @Test
     public void testQETest6() throws Exception{
         // Test with new Dev build 1
-        Assert.assertEquals(INPUT,"44");
+        Assert.assertEquals(INPUT,"4");
         Assert.assertEquals(INPUT2,"115");
     }
         @Test
     public void testQETest7() throws Exception{
         // Test with new Dev build 1
-        Assert.assertEquals(INPUT,"44");
+        Assert.assertEquals(INPUT,"4");
         Assert.assertEquals(INPUT2,"115");
     }
         @Test
     public void testQETest8() throws Exception{
         // Test with new Dev build 1
-        Assert.assertEquals(INPUT,"44");
+        Assert.assertEquals(INPUT,"4");
         Assert.assertEquals(INPUT2,"115");
     }
         @Test
     public void testQETest9() throws Exception{
         // Test with new Dev build 1
-        Assert.assertEquals(INPUT,"44");
+        Assert.assertEquals(INPUT,"4");
         Assert.assertEquals(INPUT2,"115");
     }    @Test
     public void testQETest10() throws Exception{
         // Test with new Dev build 1
-        Assert.assertEquals(INPUT,"44");
+        Assert.assertEquals(INPUT,"4");
         Assert.assertEquals(INPUT2,"115");
     }
         public void testQETest11() throws Exception{
         // Test with new Dev build 1
-        Assert.assertEquals(INPUT,"44");
+        Assert.assertEquals(INPUT,"4");
         Assert.assertEquals(INPUT2,"115");
     }
 
@@ -275,7 +276,11 @@ public class AppTest {
 @Test public void testQETest201(){}
 @Test public void testQETest202(){}
 @Test public void testQETest203(){}
-@Test public void testQETest204(){}
-@Test public void testQETest205(){}
-@Test public void testQETest206(){}
+    @Ignore
+    @Test public void testQETest204(){}
+    @Ignore
+    @Test public void testQETest205(){}
+    @Ignore
+    @Test public void testQETest206(){}
+    
 }
