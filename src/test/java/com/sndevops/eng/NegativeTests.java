@@ -16,8 +16,10 @@ public class NegativeTests {
 
 
 // @Test public void testQETest12(){}
-    @Ignore
-    @Test public void testQETest13(){}
+    //@Ignore
+    @Test public void negativeTest1()throws Exception {
+        Thread.sleep(5000);
+    }
 
     
 }
