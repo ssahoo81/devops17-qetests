@@ -12,20 +12,11 @@ public class AppTest {
     // Add more tests
     // Connected , unconfigured track true- Case 1
     @Test
-    public void testLength() {
+    public void testQETest1() {
         // Test with new Dev build 1
         Assert.assertEquals(INPUT,"44");
         Assert.assertEquals(INPUT2,"115");
     }
     
-    @Test
-    public void testPassed() throws Exception {
-        Thread.sleep(6000);
-        Assert.assertEquals(isPassed,true);
-    }
-    
-        @Test
-    public void testFailed() {
-        Assert.assertEquals(isPassed,false);
-    }
+
 }
