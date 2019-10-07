@@ -11,7 +11,7 @@ public class AppTest {
     @Test
      public void testQETest1() throws Exception {
          // Test with new Dev build 1
-         Assert.assertEquals(INPUT,"4");
+         Assert.assertEquals(INPUT,"45");
         Thread.sleep(5000);
      }
     
@@ -76,7 +76,7 @@ public class AppTest {
 
     // }
 
-    //@Ignore
+    @Ignore
     @Test public void testQETest13(){}
 
     
