@@ -7,7 +7,7 @@ import org.junit.Ignore;
 
 public class NegativeTest {
     private String INPUT = "4";
-    
+    @Ignore
     @Test
     public void negativeTest1() throws Exception{
         Thread.sleep(5000);
