@@ -16,68 +16,68 @@ public class DevOps17QETestsAppTest {
      }
     
          @Test
-     public void testDevOps17QETest1() throws Exception{
+     public void testDevOps17QETest2() throws Exception{
          // Test with new Dev build 1
          Thread.sleep(5000);
          Assert.assertEquals(INPUT,"44");
      }
     
     //     @Test
-    // public void testQETest3() throws Exception{
+    // public void testDevOps17QETest3() throws Exception{
     //     // Test with new Dev build 1
     //     Assert.assertEquals(INPUT,"4");
 
     //             Thread.sleep(5000);
     // }
     //     @Test
-    // public void testQETest4() throws Exception{
+    // public void testDevOps17QETest4() throws Exception{
     //     // Test with new Dev build 1
     //     Assert.assertEquals(INPUT,"4");
 
     // }
     //     @Test
-    // public void testDevOps17QETest1() throws Exception{
+    // public void testDevOps17QETest5() throws Exception{
     //     // Test with new Dev build 1
     //     Assert.assertEquals(INPUT,"4");
   
     // }
     //     @Test
-    // public void testDevOps17QETest1() throws Exception{
+    // public void testDevOps17QETest6() throws Exception{
     //     // Test with new Dev build 1
     //     Assert.assertEquals(INPUT,"4");
 
     // }
     //     @Test
-    // public void testQETest7() throws Exception{
+    // public void testDevOps17QETest7() throws Exception{
     //     // Test with new Dev build 1
     //     Assert.assertEquals(INPUT,"4");
 
     // }
     //     @Test
-    // public void testDevOps17QETest1() throws Exception{
+    // public void testDevOps17QETest8() throws Exception{
     //     // Test with new Dev build 1
     //     Assert.assertEquals(INPUT,"4");
    
     // }
     //     @Test
-    // public void testDevOps17QETest1() throws Exception{
+    // public void testDevOps17QETest9() throws Exception{
     //     // Test with new Dev build 1
     //     Assert.assertEquals(INPUT,"4");
 
     // }    @Test
-    // public void testDevOps17QETest1() throws Exception{
+    // public void testDevOps17QETest10() throws Exception{
     //     // Test with new Dev build 1
     //     Assert.assertEquals(INPUT,"4");
  
     // }
-    //     public void testDevOps17QETest1() throws Exception{
+    //     public void testDevOps17QETest11() throws Exception{
     //     // Test with new Dev build 1
     //     Assert.assertEquals(INPUT,"4");
 
     // }
 
     @Ignore
-    @Test public void testDevOps17QETest1(){}
+    @Test public void testDevOps17QETest12(){}
 
     
 }
