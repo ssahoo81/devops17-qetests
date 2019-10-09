@@ -9,14 +9,14 @@ public class AppTest {
     private String INPUT = "4";
 
     @Test
-     public void testQETest1() throws Exception {
+     public void testDevOps17QETest1() throws Exception {
          // Test with new Dev build 1
          Assert.assertEquals(INPUT,"45");
         Thread.sleep(5000);
      }
     
          @Test
-     public void testQETest2() throws Exception{
+     public void testDevOps17QETest1() throws Exception{
          // Test with new Dev build 1
          Thread.sleep(5000);
          Assert.assertEquals(INPUT,"44");
@@ -36,13 +36,13 @@ public class AppTest {
 
     // }
     //     @Test
-    // public void testQETest5() throws Exception{
+    // public void testDevOps17QETest1() throws Exception{
     //     // Test with new Dev build 1
     //     Assert.assertEquals(INPUT,"4");
   
     // }
     //     @Test
-    // public void testQETest6() throws Exception{
+    // public void testDevOps17QETest1() throws Exception{
     //     // Test with new Dev build 1
     //     Assert.assertEquals(INPUT,"4");
 
@@ -54,30 +54,30 @@ public class AppTest {
 
     // }
     //     @Test
-    // public void testQETest8() throws Exception{
+    // public void testDevOps17QETest1() throws Exception{
     //     // Test with new Dev build 1
     //     Assert.assertEquals(INPUT,"4");
    
     // }
     //     @Test
-    // public void testQETest9() throws Exception{
+    // public void testDevOps17QETest1() throws Exception{
     //     // Test with new Dev build 1
     //     Assert.assertEquals(INPUT,"4");
 
     // }    @Test
-    // public void testQETest10() throws Exception{
+    // public void testDevOps17QETest1() throws Exception{
     //     // Test with new Dev build 1
     //     Assert.assertEquals(INPUT,"4");
  
     // }
-    //     public void testQETest11() throws Exception{
+    //     public void testDevOps17QETest1() throws Exception{
     //     // Test with new Dev build 1
     //     Assert.assertEquals(INPUT,"4");
 
     // }
 
     @Ignore
-    @Test public void testQETest13(){}
+    @Test public void testDevOps17QETest1(){}
 
     
 }
